@@ -23,6 +23,10 @@ public class baseclass {
 		else if(browser.equalsIgnoreCase(browser)) {
 			driver=new EdgeDriver();
 		}
+		else if(browser.equalIgnoreCase(browser){
+			driver=new FirefoxDriver();
+		}
+		
 	}
 	
 	public static String getValueInPropertiesFile(String propertyname) throws Exception   {
